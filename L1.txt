@@ -29,3 +29,7 @@ IMAGE : <img src="path"> , alt used to specify a text if the image fails to load
 MARQUEE : moving tag --> left , right , up , down
 ORDERED LIST : list of something --> 1 , A , a , I , i
 UNORDERED LIST : bullet points , ordered list can be made inside unordered and vice versa
+DESCRIPTION LIST : list of things with its description
+HTML TABLE : consists of rows and columns
+
+----//third.html
