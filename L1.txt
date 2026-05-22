@@ -1,0 +1,31 @@
+DEFAULT STRUCTURE : write ! and press enter to get the default structure.
+BODY : anything written under the body tag is visible part in the website
+HEAD : under the head tag instructions are written which is metadeta for the browser.
+METADATA : data about the things written under the body
+ELEMENTS : images , links , texts , audio...
+ATTRIBUTES : addition info about the elements...Example - <tagName attribute1="value" attribute2="value">Content</tagName>- (the whole thing is called an element)
+.                                         •TAGS UNDER HEAD
+TITLE : - <title> - title or name of website
+DESCRIPTION : - <meta name="description" content="..."></meta> - gives the summary of the web page shown under the website name by search engines
+
+.                                         •TAGS UNDER BOdy
+-><b> , <small> , <bold> , <i> , <strong> , <em> , <mark> , <del> , <ins> , <q> , <blockquote>
+PARAGRAPH : <p> is a paragraph tag or <pre> tag as in both the diff. is of spacing and change of line 
+IMAGE : - <img src="link"> - for image
+LINE SPACING : <br>
+HEADING : <h1>Heading</> now second heading would be named <h2> so this will have comaparable smaller height and width.
+HORIZONTAL RULE : hr provides a line for the heading
+BLOCKQUOTE : Used to emphasize the quote written by an author and attribute 'cite' used to show its origin.
+ABBREVIATION : To show the full form or meaning of something.ß
+LINK : To move the user to other page we use link ...<a> and href , target abbreviation
+href : hypertext reference and target : to open page in other tab rather to open in the current tab.
+LOCALLINK : To Move Down Or Up In The Same Page ... href = #idName
+
+ALL THE ABOVE CONTENTS ARE AS AN EXAMPLE USED IN first.html
+
+----//second.html
+MAIL : <a href = "mailto:..."> and subject
+IMAGE : <img src="path"> , alt used to specify a text if the image fails to load
+MARQUEE : moving tag --> left , right , up , down
+ORDERED LIST : list of something --> 1 , A , a , I , i
+UNORDERED LIST : bullet points , ordered list can be made inside unordered and vice versa
