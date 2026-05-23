@@ -57,24 +57,24 @@
     <table border="5px">
       <TR>
         <th>TABLE</th>
-        <th>ROW1</th>
-        <th>ROW2</th>
-        <th>ROW3</th>
+        <th>COL1</th>
+        <th>COL2</th>
+        <th>COL3</th>
       </TR>
       <tr>
-        <th>COL1</th>
+        <th>ROW1</th>
         <td>R1 C1</td>
         <td>R1 C2</td>
         <td>R1 C3</td>
       </tr>
       <TR>
-        <th>COL2</th>
+        <th>ROW2</th>
         <td>R2 C1</td>
         <td>R2 C2</td>
         <td>R2 C3</td>
       </TR>
       <TR>
-        <th>COL3</th>
+        <th>ROW3</th>
         <td>R3 C1</td>
         <td>R3 C2</td>
         <TD>R3 C3</TD>
@@ -83,27 +83,51 @@
     <hr><hr>
 <!--table2-->
     <table border="10px">
-      <TR>
-        <!--colspan is used to merge n columns into 1-->
-        <th rowspan="4">TABLE</th>
-        <th colspan="4">TABLE</th>
-      </TR>
-      <tr>
-        <!--<td rowspan="3">TABLE</td> -->
-        <td>R1 C1</td>
-        <td>R1 C2</td>
-        <td>R1 C3</td>
-      </tr>
-      <TR>
-        <td>R2 C1</td>
-        <td>R2 C2</td>
-        <td>R2 C3</td>
-      </TR>
-      <TR>
-        <td>R3 C1</td>
-        <td>R3 C2</td>
-        <TD>R3 C3</TD>
-      </TR>
+      <caption>Example Of A Table</caption>
+      <thead style="color: blue;"><!--Tells the ui and programmer that this row is heading-->
+        <TR>
+          <!--colspan is used to merge n columns into 1-->
+          <th colspan="3">TABLE</th>
+        </TR>
+      </thead>
+      <tbody style="color:green"><!--Tells the ui and programmer that this row contains the data i.e. it is the main body-->
+        <tr>
+          <!--<td rowspan="3">TABLE</td> -->
+          <td>R1 C1</td>
+          <td>R1 C2</td>
+          <td>R1 C3</td>
+        </tr>
+        <TR>
+          <td>R2 C1</td>
+          <td>
+            <table style="color: red;" border="2px">
+              <caption style="color:darkmagenta;">nested table</caption>
+              <tr>
+                <td>r1c1</td>
+                <td>r1c2</td>
+                <td>r1c3</td>
+              </tr>
+              <tr>
+                <td>r2c1</td>
+                <td>r2c2</td>
+                <td>r2c3</td>
+              </tr>
+              <tr>
+                <td>r3c1</td>
+                <td>r3c2</td>
+                <td>r3c3</td>
+              </tr>
+            </table>
+          </td>
+          <td>R2 C3</td>
+        </TR>
+        <TR>
+          <td>R3 C1</td>
+          <td>R3 C2</td>
+          <TD>R3 C3</TD>
+        </TR>
+      </tbody>
+      <tfoot style="color: blue;"><th colspan="3">TABLE</th><!--contains the same thing as thead...used just in case the table is large that the website needs to be scrolled down so what happens is that the heading gets out of sight so we use that heading at the foot or end of the table for easy understanding--></tfoot>
     </table>
 </body>
 

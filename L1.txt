@@ -31,5 +31,13 @@ ORDERED LIST : list of something --> 1 , A , a , I , i
 UNORDERED LIST : bullet points , ordered list can be made inside unordered and vice versa
 DESCRIPTION LIST : list of things with its description
 HTML TABLE : consists of rows and columns
+NESTED TABLE : under table -> tr -> td -> table -> tr -> td.
 
 ----//third.html
+DIV AND SPAN : helps to organise things in a structure...these act as a wrapper of various elements in the website.
+such as in a school page -> there is a small strip which has all the imp. buttons -> fees , admission process , upcoming events
+then below there is on the left it has a login page , on the right contains photos of students birthday. so as there are 3 parts in the page they have 3 divs in its html.
+each div having its own size , color , animation , javascript.
+DIV -> Block Element i.e. by default it starts on a new line and takes the widht of the whole screen(left to right)
+SPAN -> Inline Element i.e. by default it does not need any new line and takes as much space as its need and not the whole width
+there are many block and inline elements and div and span are one its respective example
