@@ -47,3 +47,5 @@ AUDIO -> <audio>
 PDF -> can be shown in the website using iframe , embed or object tag...
 EMBEDDING YOUTUBE VIDEO 
 EMBEDDING GOOGLE MAPS
+HMTL ENTITIES -> helps us to print the reserved keywords of html such as-> <div> , <p>... -> two types (by name or by number)
+the names and numbers of various elements could be seen on various websites such as -> https://www.freeformatter.com/html-entities.html
