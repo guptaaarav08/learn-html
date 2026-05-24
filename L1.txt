@@ -38,6 +38,12 @@ DIV AND SPAN : helps to organise things in a structure...these act as a wrapper 
 such as in a school page -> there is a small strip which has all the imp. buttons -> fees , admission process , upcoming events
 then below there is on the left it has a login page , on the right contains photos of students birthday. so as there are 3 parts in the page they have 3 divs in its html.
 each div having its own size , color , animation , javascript.
-DIV -> Block Element i.e. by default it starts on a new line and takes the widht of the whole screen(left to right)
+DIV -> Block Element i.e. by default it starts on a new line and forces the next element too to start on a new line and takes the widht of the whole screen(left to right)
 SPAN -> Inline Element i.e. by default it does not need any new line and takes as much space as its need and not the whole width
 there are many block and inline elements and div and span are one its respective example
+IFRAME -> used to show other website on our page...not all website let us use this iframe some have restricted it.
+AUDIO -> <audio>
+----//fourth.html
+PDF -> can be shown in the website using iframe , embed or object tag...
+EMBEDDING YOUTUBE VIDEO 
+EMBEDDING GOOGLE MAPS

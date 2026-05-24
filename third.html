@@ -11,7 +11,32 @@
 
 <body>
   
-  
+  <div style ="border : 2px solid green">
+    first line under div
+  </div>
+  <div style ="border : 2px solid green">
+    second line under div
+  </div>
+<br>
+  <span style ="border : 2px solid green">
+    first line under span
+  </span>
+  <span style ="border : 2px solid green">
+    second line not taking extra line
+  </span>
+<br><br>
+
+<!--IFRAME-->
+  <iframe src="https://ndtv.com" height="300px" width="1690px"></iframe>
+<!--AUDIO--><br><br>
+  <audio controls src=""></audio>
+<br><br>
+  <audio controls><source src="audio.mp3" type="audio/mpeg">Audio File Not Supported!</audio>
+<br><br>
+<!--VIDEO-->
+<video controls height="200px" width="400px"><source src="video1.mp4" type="video/mp4"></video>
+<video autoplay height="200" width="400" muted><source src="video1.mp4" type="video/mp4"><source src="video1.ogg" type="video/ogg"></video><!--if the video is not muted then the autoplay might not work--><!--adding multiple source such that even if the type changes the video will work -->
+<video controls autoplay height="200" width="400" muted><source src="video1.mp4" type="video/mp4">Video Not Supported By Browser</video>
 
 </body>
 
